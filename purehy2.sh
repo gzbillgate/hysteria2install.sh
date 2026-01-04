@@ -1,6 +1,6 @@
 #!/bin/bash
 # Hysteria2 纯净版一键安装脚本
-# 作者：stephchowzhh
+# 作者：stephchow
 # 功能：仅从 GitHub 官方源安装，无第三方依赖，无后门
 
 set -e

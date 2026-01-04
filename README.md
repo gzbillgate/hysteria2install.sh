@@ -11,7 +11,7 @@
 
 1.下载并运行脚本
 ```
-wget -O - https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/main/pureinstall.sh | sudo bash
+wget -O - https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/purehy2.sh | sudo bash
 
 ```
 2. 按提示输入配置

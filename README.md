@@ -11,11 +11,11 @@
 
 1.下载并运行脚本
 ```
-wget -O hy2.sh https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/pureinstall.sh
+# 先预览
+curl -s https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/pureinstall.sh
 
-chmod +x hy2.sh
-
-./hy2.sh
+# 确认无误后运行
+curl -s https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/pureinstall.sh | sudo bash
 
 ```
 2. 按提示输入配置

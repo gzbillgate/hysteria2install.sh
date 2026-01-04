@@ -10,15 +10,17 @@
 ## 📥 使用方法
 
 1.下载并运行脚本
-
+```
 wget -O hy2.sh https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/pureinstall.sh
 
 chmod +x hy2.sh
 
 ./hy2.sh
 
+```
 2. 按提示输入配置
-
+   
+```
 监听端口（默认 443）
 
 认证密码（可留空自动生成）
@@ -27,10 +29,13 @@ chmod +x hy2.sh
 
 伪装网址（如 https://www.bing.com）
 
+```
+
 3. 安装后文件位置
 
 文件	路径
 
+```
 二进制	/opt/hysteria2/hysteria
 
 配置	/opt/hysteria2/config.yaml
@@ -41,17 +46,19 @@ Clash 配置	/opt/hysteria2/clash-meta.yaml
 
 服务名	hysteria2
 
+```
 4. 服务管理（可选）
 
-# 启动
-systemctl start hysteria2
-# 停止
-systemctl stop hysteria2
-# 查看状态
-systemctl status hysteria2
+```
+systemctl start hysteria2 # 启动
 
-# 查看日志
-journalctl -u hysteria2 -f 
+systemctl stop hysteria2 # 停止
+
+systemctl status hysteria2 # 查看状态
+
+journalctl -u hysteria2 -f # 查看日志
+
+```
 
 5.卸载
 

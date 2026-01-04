@@ -11,11 +11,7 @@
 
 1.下载并运行脚本
 ```
-# 先预览
-curl -s https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/pureinstall.sh
-
-# 确认无误后运行
-curl -s https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/pureinstall.sh | sudo bash
+wget -O - https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/main/pureinstall.sh | sudo bash
 
 ```
 2. 按提示输入配置

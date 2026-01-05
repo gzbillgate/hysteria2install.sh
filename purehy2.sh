@@ -143,8 +143,8 @@ acme:
   fi
 
   # 伪装网站（可选）
-  read -p "请输入伪装网址 (默认 https://www.bing.com): " MASQ_URL
-  MASQ_URL=${MASQ_URL:-"https://www.bing.com"}
+  read -p "请输入伪装网址 (默认 www.microsoft.com): " MASQ_URL
+  MASQ_URL=${MASQ_URL:-"www.microsoft.com"}
 
   # 生成 config.yaml
   cat > "$WORK_DIR/config.yaml" <<EOF

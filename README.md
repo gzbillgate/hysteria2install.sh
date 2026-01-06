@@ -13,14 +13,7 @@ curl -fsSL https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/head
 
 ```
 
-2. 按提示输入端口、密码等（可全默认）
 
-3. 脚本结束后，复制 neko.txt 内容
-
-4. Restart 服务器
-
-5. 最终效果
-   
 ```
 
 文件都在 /home/container

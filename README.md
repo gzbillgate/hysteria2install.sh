@@ -7,13 +7,9 @@
 
 ## 📥 使用方法
 
-1.下载并运行脚本
+1.一键部署命令
 ```
-wget -O hy2-container.sh https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/hy2-container.sh
-
-chmod +x hy2-container.sh
-
-./hy2-container.sh
+curl -fsSL https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/hy2-container.sh | sh -s 29999
 
 ```
 

@@ -9,22 +9,13 @@
 
 1.一键部署命令
 ```
-curl -fsSL https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/hy2-container.sh | sh -s 29999
+curl -fsSL https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/hy2-container.sh | sh -s 29999（也可以修改你的服务器分配的端口）
 
 ```
 
 
 ```
 
-文件都在 /home/container
-
-内存占用 <25MB
-
-支持伪装、QUIC keepalive、低日志
-
-客户端一键导入
-
-```
 
 
 

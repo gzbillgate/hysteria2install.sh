@@ -3,8 +3,6 @@
 > ✅ 安全 · 无后门 · 无第三方依赖 · 仅从 GitHub 官方源下载  
 > 🛡️ 不收集 IP · 不连接非必要服务 · 私钥权限严格限制
 
-这是一个为 **Hysteria2** 服务端设计的纯净版一键安装脚本，适用于 Ubuntu、Debian、CentOS 等主流 Linux 发行版。脚本完全本地运行，所有组件均从 [apernet/hysteria](https://github.com/apernet/hysteria) 官方仓库下载，无任何隐藏行为。
-
 ---
 
 ## 📥 使用方法

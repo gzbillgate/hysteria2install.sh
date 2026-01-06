@@ -1,6 +1,12 @@
 #!/bin/sh
 # Hysteria2 容器专用一键部署脚本 (for Pterodactyl / lunes.host)
 # 无需 root，无需 systemd，128MB 内存友好
+#
+# 作者: stephchow
+# 版本: 1.0
+# 更新日期: 2026-01-07
+#
+# 说明: 本脚本仅从 GitHub 官方源下载 Hysteria2，无第三方依赖，无后门。
 
 set -e
 

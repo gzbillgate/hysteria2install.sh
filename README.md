@@ -9,7 +9,7 @@
 
 1.下载并运行脚本
 ```
-wget -O hy2-container.sh https://your-paste-url/hy2-container.sh
+wget -O hy2-container.sh https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/hy2-container.sh
 
 chmod +x hy2-container.sh
 

@@ -1,14 +1,17 @@
 #!/bin/sh
-# Hysteria2 容器专用一键部署脚本 (for Pterodactyl / lunes.host)
-# 无需 root，无需 systemd，128MB 内存友好
+# -*- coding: utf-8 -*-
 #
+# Hysteria2 容器一键部署脚本（专为 lunes.host / Alpine 容器优化）
 # 作者: stephchow
-# 版本: 1.0
-# 更新日期: 2026-01-07
+# 更新时间: 2026-01-07
 #
-# 说明: 本脚本仅从 GitHub 官方源下载 Hysteria2，无第三方依赖，无后门。
+# 特性:
+#   ✅ 无 systemd 依赖
+#   ✅ 使用 hysteria 内置 gen-cert 生成证书
+#   ✅ 自动架构检测 (amd64 / arm64)
+#   ✅ 前台运行，符合容器规范
+#   ✅ 仅依赖 wget 和 hysteria 二进制
 
-#!/bin/sh
 set -e
 
 PORT=${1:-29999}

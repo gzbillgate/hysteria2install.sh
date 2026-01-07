@@ -8,7 +8,6 @@
 ## 一键部署命令
 
 ```
-
 curl -fsSL https://raw.githubusercontent.com/gzbillgate/hysteria2-chow/refs/heads/main/hy2-container.sh | sh -s 29999
 
 ```
